@@ -20,7 +20,10 @@
 
 > Status do Projeto: Em Desenvolvimento 🛠
 >
-> Video do Projeto: Em Desenvolvimento 📽️
+# Video do Projeto - v1 📽️
+
+[![Assista ao vídeo de demonstração](./docs/imgs/vidS1Thumb.png)](https://youtu.be/mwXvDLRzjOo?si=rIoOHfjssDcdg8Sf)
+
 
 ## 🏅 Desafio Apresentado<a id="desafio"></a>
 O Exército Brasileiro é obrigado a produzir documentações técnicas detalhadas — memoriais de cálculo, especificações e orçamentos — para licenciar obras, seguindo normas da ABNT e padrões internos. Para que assim possa fazer uma licitação — processo formal e burocrático de contratação empresas para execução do serviço. Todo esse processo de documentação técnica é feito manualmente pelos engenheiros, desde a interpretação dos arquivos CAD até a formatação dos documentos, consumindo horas de trabalho especializado, atrasando aprovações e desviando o foco de atividades mais estratégicas.
