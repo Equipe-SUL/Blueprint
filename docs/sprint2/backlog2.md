@@ -1,0 +1,9 @@
+## 📋 Backlog do Produto - Sprint 2
+
+| Rank | Prioridade | User Story                                                                                                                                                                    | Story Points | Sprint | Requisito | Status |
+| :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :-------: | :----: |
+|  01  |    Baixa   | Como Engenheiro, quero exportar o memorial aprovado em PDF/DOCX, para que eu gere o backup oficial do projeto.                                                                |       3      |    2   |   REQ-08   |    ✅   |
+|  02  |    Alta   | Como administrador, quero que a IA receba contextos e direcionamentos específicos, para que os dados coletados sejam mais confiáveis e consequentemente mais impactantes no produto.                                                        |       8      |    2   |   REQ-17   |    ✅   |
+|  03  |    Alta   | Como administrador, quero confirmar se as informações retiradas pelas linguagens estão compativeis com a tabela sinapi, para que o orçamento possa ser gerado de forma efetiva.                                                                   |       8      |    2   |   REQ-18   |    ✅   |
+|  04  |    Alta   | Como Engenheiro, quero ter confiabilidade nas informações apresentadas, para que possa fazer uma verificação mais rápida no momento de edição de documentos                                                          |       13      |    2   |   REQ-19   |    ✅   |
+|  05  |    Alta   | Como administrador, quero que o backend faça o calculo quantitativo de materiais,  para que o memorial orçamentário seja montado de forma fluida.                                                                           |       8      |    2   |   REQ-20   |    ✅   |

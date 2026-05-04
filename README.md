@@ -61,16 +61,11 @@ Uma aplicação web que recebe arquivos de obra (CAD, CSV ou Excel), usa intelig
 |   4  |    Alta    | Como Engenheiro, quero revisar as correspondências sugeridas pelo sistema e aplicar margens de perda por item, para que o orçamento final reflita a realidade física da obra. |       5      |    1   |   REQ-04   |    ✅   |
 |   5  |    Baixa   | Como Engenheiro, quero ver um painel com a lista das minhas obras, para que eu possa abrir projetos ou atualizá-los.                                                          |       3      |    1   |   REQ-15  |    ✅   |
 |   6  |    Baixa   | Como engenheiro, quero cadastrar uma nova obra informando nome e estado, para que eu possa verificar, organizar arquivos e ver materiais por projeto.                         |       3      |    1   |   REQ-16  |    ✅   |
-|   7  |    Média   | Como Administrador, quero cadastrar templates padrão de memoriais, para que a IA tenha a base exata de formatação (NBRs).                                                     |       0      |    2   |   REQ-05   |    ⏳   |
-|   8  |    Média   | Como sistema, quero enviar o Template e a Lista para a API do LLM, para que ele gere o memorial substituindo apenas o necessário.                                             |       0      |    2   |   REQ-06   |    ⏳   |
-|   9  |    Média   | Como Engenheiro, quero revisar o memorial em um editor na tela, para que eu faça conferências finais.                                                                         |       0      |    2   |   REQ-07   |    ⏳   |
-|  10  |    Média   | Como Engenheiro, quero exportar o memorial aprovado em PDF/DOCX, para que eu gere o backup oficial do projeto.                                                                |       0      |    2   |   REQ-08   |    ⏳   |
-|  11  |    Média   | Como Administrador, quero importar planilhas de Bases Oficiais (SINAPI, SICRO), para que o sistema atualize os preços.                                                        |       0      |    2   |   REQ-09   |    ⏳   |
-|  12  |    Média   | Como Engenheiro, quero cadastrar cotações próprias, para que eu precifique itens fora das tabelas oficiais.                                                                   |       0      |    2   |   REQ-10   |    ⏳   |
-|  13  |    Média   | Como sistema, quero cruzar a lista da obra com os preços atuais do banco, para que o custo direto seja calculado.                                                             |       0      |    2   |   REQ-11   |    ⏳   |
-|  14  |    Média   | Como Engenheiro, quero definir a taxa de BDI do projeto, para que o sistema calcule o valor global.                                                                           |       0      |    2   |   REQ-12   |    ⏳   |
-|  15  |    Média   | Como Engenheiro, quero exportar a planilha orçamentária para Excel (.xlsx), para que eu gere o backup histórico da obra.                                                      |       0      |    2   |   REQ-13   |    ⏳   |
-|  16  |    Média   | Como Militar/Engenheiro, quero fazer login com e-mail e senha, para que apenas pessoas autorizadas acessem os dados.                                                          |       0      |    2   |   REQ-14  |    ⏳   |
+|  7  |    Baixa   | Como Engenheiro, quero exportar o memorial aprovado em PDF/DOCX, para que eu gere o backup oficial do projeto.                                                                |       3      |    2   |   REQ-08   |    ✅   |
+|  8  |    Alta   | Como administrador, quero que a IA receba contextos e direcionamentos específicos, para que os dados coletados sejam mais confiáveis e consequentemente mais impactantes no produto.                                                        |       8      |    2   |   REQ-17   |    ✅   |
+|  9  |    Alta   | Como administrador, quero confirmar se as informações retiradas pelas linguagens estão compativeis com a tabela sinapi, para que o orçamento possa ser gerado de forma efetiva.                                                                   |       8      |    2   |   REQ-18   |    ✅   |
+|  10  |    Alta   | Como Engenheiro, quero ter confiabilidade nas informações apresentadas, para que possa fazer uma verificação mais rápida no momento de edição de documentos                                                          |       13      |    2   |   REQ-19   |    ✅   |
+|  11  |    Alta   | Como administrador, quero que o backend faça o calculo quantitativo de materiais,  para que o memorial orçamentário seja montado de forma fluida.                                                                           |       8      |    2   |   REQ-20   |    ✅   |
 
 ---
 
@@ -96,9 +91,9 @@ Uma aplicação web que recebe arquivos de obra (CAD, CSV ou Excel), usa intelig
 
 | Sprint | Período | Documentação |
 | :--- | :-----------: | :--- |
-| 🔖 **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](./link) |
-| 🔖 **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs](./link) |
-| 🔖 **SPRINT 3** | 11/05 - 31/05 | [Sprint 2 Docs](./link) |
+| 🔖 **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](./docs/sprint1/) |
+| 🔖 **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs](./docs/sprint2/) |
+| 🔖 **SPRINT 3** | 11/05 - 31/05 | [Sprint 2 Docs](./link/sprint3/) |
 
 
 ---
