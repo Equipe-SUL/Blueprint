@@ -20,7 +20,7 @@
 
 > Status do Projeto: Em Desenvolvimento 🛠
 >
-# Video do Projeto - v1 📽️
+# Vídeo de Demonstração - Produto Final 📽️
 
 [![Assista ao vídeo de demonstração](./docs/imgs/vidS1Thumb.png)](https://youtu.be/mwXvDLRzjOo?si=rIoOHfjssDcdg8Sf)
 
@@ -29,7 +29,7 @@
 O Exército Brasileiro é obrigado a produzir documentações técnicas detalhadas — memoriais de cálculo, especificações e orçamentos — para licenciar obras, seguindo normas da ABNT e padrões internos. Para que assim possa fazer uma licitação — processo formal e burocrático de contratação empresas para execução do serviço. Todo esse processo de documentação técnica é feito manualmente pelos engenheiros, desde a interpretação dos arquivos CAD até a formatação dos documentos, consumindo horas de trabalho especializado, atrasando aprovações e desviando o foco de atividades mais estratégicas.
 
 ## 🏅 Solução Proposta <a id="solucao"></a>
-Uma aplicação web que recebe arquivos de obra (CAD, CSV ou Excel), usa inteligência artificial para extrair e interpretar os quantitativos, e gera automaticamente os documentos técnicos padronizados — memoriais de cálculo, especificações e orçamentos — prontos para uso pelo Exército.
+Uma aplicação web que recebe arquivos de obra (CAD, CSV ou Excel), extraindo e calculando os quantitativos por meio de python, e ao fim usa inteligência artificial para gerar automaticamente os documentos técnicos padronizados — memoriais de cálculo, especificações e orçamentos — prontos para uso pelo Exército.
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 <h4 align="center">
