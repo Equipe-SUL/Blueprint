@@ -22,7 +22,7 @@
 >
 # Vídeo de Demonstração - Produto Final 📽️
 
-[![Assista ao vídeo de demonstração](./docs/imgs/vidS1Thumb.png)](https://youtu.be/mwXvDLRzjOo?si=rIoOHfjssDcdg8Sf)
+[![Assista ao vídeo de demonstração](./docs/imgs/vidS3Thumb.png)](https://www.youtube.com/watch?v=aQZifRPN6wY)
 
 
 ## 🏅 Desafio Apresentado<a id="desafio"></a>
