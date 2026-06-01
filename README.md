@@ -99,13 +99,106 @@ Uma aplicação web que recebe arquivos de obra (CAD, CSV ou Excel), usa intelig
 ---
 
 ## 📖 Manual de Instalação <a id="manual"></a>
-### 🛠 Pré-requisitos
-* Git, Node.js, Python...
 
-### 1. Instalação
+### 🛠 Pré-requisitos
+
+- **Git** — clonagem do repositório
+- **Python 3.11+** — backend Django
+- **Node.js 18+** — frontend React
+- **PostgreSQL** — banco de dados (local ou Supabase)
+- **Ollama** — execução local do LLM ([ollama.com](https://ollama.com))
+
+### 1. Clonar o projeto
+
 ```bash
-procedimento de clonagem, instalação e etc...
+git clone --recurse-submodules https://github.com/Equipe-SUL/Blueprint.git
+cd Blueprint
 ```
+
+Se já clonou sem a flag, atualize os submódulos:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 2. Backend
+
+```bash
+cd backend
+python -m venv .venv
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# Linux/macOS
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+Copie e configure as variáveis de ambiente:
+
+```bash
+cp .env.example .env
+```
+
+Edite o `.env` com os dados do seu PostgreSQL:
+
+```env
+DB_NAME=blueprint
+DB_USER=postgres
+DB_PASSWORD=sua_senha
+DB_HOST=localhost
+DB_PORT=5432
+```
+
+Aplique as migrações e popule o banco vetorial:
+
+```bash
+python manage.py migrate
+python manage.py ingerir_referencia_sinapi --limpar
+python manage.py ingerir_sinapi
+```
+
+Inicie o servidor:
+
+```bash
+python manage.py runserver
+```
+
+> O backend roda em `http://127.0.0.1:8000/`
+
+### 3. Frontend
+
+Em outro terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+> O frontend roda em `http://localhost:5173/`
+
+### 4. Ollama
+
+O pipeline de IA depende de um modelo rodando via Ollama:
+
+```bash
+# Instalar o Ollama: https://ollama.com
+ollama pull gemma4:31b-cloud
+```
+
+Para usar outro modelo, altere `OLLAMA_CHAT_MODEL` no `.env`.
+
+### 5. Acessar
+
+Abra `http://localhost:5173/` e faça login com um usuário cadastrado.
+
+> Para criar um usuário, use a aba **Cadastro** na tela de login ou rode:
+> ```bash
+> cd backend
+> python manage.py createsuperuser
+> ```
 
 ## 🎓 Equipe <a id="equipe"></a>
 
