@@ -1,0 +1,14 @@
+## 📋 Backlog do Produto - Sprint 3
+
+| Rank | Prioridade | User Story                                                                                                                                                                    | Story Points | Sprint | Requisito | Status |
+| :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :-------: | :----: |
+|  01  |   Baixa    | Como Engenheiro, quero exportar o memorial aprovado em PDF/DOCX, para que eu gere o backup oficial do projeto.                                                                |       3      |    3   |   REQ-08   |   ✅   |
+|  02  |    Alta    | Como administrador, quero que o backend faça o calculo quantitativo de materiais, para que o memorial orçamentário seja montado de forma fluida.                              |       8      |    3   |   REQ-20   |   ✅   |
+|  03  |   Média    | Como Engenheiro, quero fazer login com e-mail e senha, para que apenas pessoas autorizadas acessem os dados.                                                                  |       5      |    3   |   REQ-21   |   ✅   |
+|  04  |   Média    | Como usuário, quero realizar meu cadastro informando meus dados, para que possa acessar a plataforma e suas funcionalidades.                                                  |       8      |    3   |   REQ-22   |   ✅   |
+|  05  |   Baixa    | Como usuário, gostaria de visualizar um preview de documentos gerados para que eu possa ter maior controle da saída da IA.                                                    |       5      |    3   |   REQ-23   |   ✅   |
+|  06  |   Média    | Como usuário, quero poder excluir arquivo associado a uma obra, para que ele seja alterado em caso de upload errôneo ou desatualizados.                                       |       3      |    3   |   REQ-24   |   ✅   |
+|  07  |   Média    | Como usuário, eu quero editar os dados das obras cadastradas, para que possiveis erros possam ser alterados.                                                                  |       3      |    3   |   REQ-25   |   ✅   |
+|  08  |    Alta    | Como engenheiro, gostaria que as informações do Memorial fossem bem estruturadas, para que os dados possam ser confiáveis.                                                    |      13      |    3   |   REQ-26   |   ✅   |
+|  09  |    Alta    | Como engenheiro, quero ter confiança que os cálculos orçamentários estejam sendo executados corretamente, para que eu possa ter confiabilidade nas informações.               |      13      |    3   |   REQ-27   |   ✅   |
+|  10  |   Baixa    | Como usuário, quero que o fluxo esteja acontecendo de forma correta e sem erros, para que todo o processo seja completado.                                                    |       3      |    3   |   REQ-28   |   ✅   |
