@@ -18,7 +18,7 @@
   <a href ="#equipe"> Equipe</a> |
 </p>
 
-> Status do Projeto: Em Desenvolvimento 🛠
+> Status do Projeto: Concluído ✅
 >
 # Vídeo de Demonstração - Produto Final 📽️
 
